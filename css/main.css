@@ -461,3 +461,11 @@ padding: 15px;
 body{
  background-color: white;
 }
+
+
+
+.vänsterknapp, .högerknapp{
+  padding: 20px;
+
+
+}
