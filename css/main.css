@@ -335,7 +335,7 @@ ul input{
 }
 
 li a:hover{
-  background-color: gray;
+  background-color: #999;
 }
 
 
@@ -346,7 +346,7 @@ li a:hover{
 }
 .sidebar{
   text-align: center;
-  background-color:gray;
+  background-color:#999;
   padding: 10px;
   border-radius: 5px;
 
@@ -354,14 +354,14 @@ li a:hover{
 
 .article1{
   text-align: center;
-  background-color: gray;
+  background-color: #999;
   padding: 10px;
   border-radius: 5px;
   
 }
 .article2{
   text-align: center;
-  background-color: gray;
+  background-color: #999;
   padding: 10px;
   border-radius: 5px;
 }
@@ -372,7 +372,7 @@ li a:hover{
 }
 
 .lunchmenu{
-  background-color: gray;
+  background-color: #999;
   text-align: center;
   padding: 10px;
   border-radius: 5px;
@@ -384,7 +384,7 @@ li a:hover{
 
 .contactform{
   width: 100%;
-  background-color: gray;
+  background-color: #999;
   padding: 15px;
   border-radius: 5px;
 }
@@ -399,23 +399,23 @@ li a:hover{
 }
 
 .story{
-background-color: gray;
+background-color: #999;
 padding: 15px;
   border-radius: 5px;
 }
 .future{
-  background-color: gray;
+  background-color: #999;
   padding: 15px;
   border-radius: 5px;
 }
 
 .pizzamenu{
-  background-color: gray;
+  background-color: #999;
   padding: 15px;
   border-radius: 5px;
   }
   .pastamenu{
-    background-color: gray;
+    background-color: #999;
     padding: 15px;
   border-radius: 5px;
   }
@@ -459,7 +459,7 @@ padding: 15px;
 }
 
 body{
- background-color: white;
+ background-color: olivedrab;
 }
 
 
