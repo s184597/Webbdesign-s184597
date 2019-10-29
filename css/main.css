@@ -263,8 +263,7 @@ textarea {
     page-break-after: avoid;
   }
 }
-/* ---------------------------- */
-
+/* Här börjar min CSS */
 
 *{
   box-sizing: border-box;
@@ -304,6 +303,7 @@ textarea {
   float: left;
   padding: 5px;
 }
+
 .logo{
   font-family: fantasy;
   color: red;
@@ -320,9 +320,11 @@ ul{
   padding: 0;
   overflow: hidden;
 }
+
 li{
   float:left;
 }
+
 li a{
   display: block;
   color: white;
@@ -330,6 +332,7 @@ li a{
   padding: 14px 16px;
   text-decoration: none;
 }
+
 ul input{
   float: right;
 }
@@ -338,18 +341,17 @@ li a:hover{
   background-color:gray;
 }
 
-
 .header{
   background-color: black;
   color: white;
   padding: 15px;
 }
+
 .sidebar{
   text-align: center;
   background-color: lightgrey;
   padding: 10px;
   border-radius: 5px;
-
 }
 
 .article1{
@@ -357,14 +359,15 @@ li a:hover{
   background-color: lightgrey;
   padding: 10px;
   border-radius: 5px;
-  
 }
+
 .article2{
   text-align: center;
   background-color: lightgrey;
   padding: 10px;
   border-radius: 5px;
 }
+
 .footer{
   background-color: black;
   color: white;
@@ -390,19 +393,18 @@ li a:hover{
 }
 
 .foodmenu{
-  
   color: black;
   width: 100%;
   padding: 15px;
   border-radius: 5px;
-  
 }
 
 .story{
-background-color: lightgrey;
-padding: 15px;
-  border-radius: 5px;
+ background-color: lightgrey;
+ padding: 15px;
+ border-radius: 5px;
 }
+
 .future{
   background-color: lightgrey;
   padding: 15px;
@@ -413,15 +415,16 @@ padding: 15px;
   background-color: lightgrey;
   padding: 15px;
   border-radius: 5px;
-  }
-  .pastamenu{
-    background-color: lightgrey;
-    padding: 15px;
+}
+
+.pastamenu{
+  background-color: lightgrey;
+  padding: 15px;
   border-radius: 5px;
   }
 
   .pizzasign{
-    width: 100%;
+  width: 100%;
   }
 
 [class*="col-"]{
@@ -459,7 +462,7 @@ padding: 15px;
 }
 
 body{
- background-color: olivedrab;
+  background-color: olivedrab;
 }
 
 
