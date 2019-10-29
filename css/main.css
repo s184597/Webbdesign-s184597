@@ -420,6 +420,10 @@ padding: 15px;
   border-radius: 5px;
   }
 
+  .pizzasign{
+    width: 100%;
+  }
+
 [class*="col-"]{
   width: 100%;
 }
