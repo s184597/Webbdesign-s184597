@@ -37,8 +37,14 @@
         <li><a href="lunch.html">Veckans lunch</a></li>
         <li><a href="contact.html">Kontakta oss</a></li>
       </ul>
-      <input type="text" placeholder="Sök...">
-      <button type="button" aria-label="Sök">Sök</button>
+      <!-- <input type="text" placeholder="Sök..."> -->
+      <!-- <button type="button" aria-label="Sök">Sök</button> -->
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
     </nav>
   </header>
   <section class="contactsite">
@@ -60,7 +66,7 @@
           <input type="text" name="e-post" id="e-post"><br>
           Meddelande:<br>
           <textarea name="meddelande" id="meddelande" cols="30" rows="10"></textarea><br>
-          <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" aria-label="Skicka meddelandet">
+          <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet">
         </form>
       </div>
     </section>
