@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -25,14 +27,30 @@
 
   <!-- Add your site or application content here -->
 
+  <nav class="mobilemenu">
+    <a href="index.html" aria-label="Logga">
+      <h1 class="logo">Jonez<span class="logo2">Pizzeria</span></h1>
+    </a>
+    <div id="länkar">
+<a href="index.html">Hem</a>
+<a href="about.html">Om oss</a>
+<a href="menu.html">Meny</a>
+<a href="lunch.html">Veckans lunch</a>
+<a href="contact.html">Kontakta oss</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+
   <header class="header">
     <nav>
-      <a href="index.html">
+      <a href="index.html" aria-label="Logga">
         <h1 class="logo">Jonez<span class="logo2">Pizzeria</span></h1>
       </a>
       <ul>
         <li><a href="index.html" aria-label="Hem">Hem</a></li>
-        <li><a href="about.html"aria-label="Om oss">Om oss</a></li>
+        <li><a href="about.html" aria-label="Om oss">Om oss</a></li>
         <li><a href="menu.html" aria-label="Meny">Meny</a></li>
         <li><a href="lunch.html" aria-label="Veckans lunch">Veckans lunch</a></li>
         <li><a href="contact.html" aria-label="Kontakta oss">Kontakta oss</a></li>
@@ -79,7 +97,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <!-- <script src="js/plugins.js"></script>
+  <!--<script src="js/plugins.js"></script>
   <script src="js/main.js"></script> -->
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
