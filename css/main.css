@@ -482,7 +482,6 @@ body{
 
 /* mobilmeny */
 
-
 .mobilemenu {
   overflow: hidden;
   background-color:black;
@@ -509,8 +508,6 @@ body{
   top: 0;
   color: black;
 }
-
-
 
 @media only screen and (min-width: 768px){
 .mobilemenu{
