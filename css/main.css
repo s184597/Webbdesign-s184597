@@ -483,7 +483,7 @@ body{
 /* mobilmeny */
 
 .mobilemenu {
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color:black;
   position: relative;
 }
@@ -496,17 +496,17 @@ body{
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  /*font-size: 17px; */
+  /*font-size: 17px;*/
   display: block;
 }
 
 .mobilemenu a.icon {
-  background: white;
+  /*background: black;*/
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-  color: black;
+  color: white;
 }
 
 @media only screen and (min-width: 768px){
